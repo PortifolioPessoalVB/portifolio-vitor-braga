@@ -14,7 +14,7 @@ export default function Portfolio() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-800">
+    <>
       <Header scrollToSection={scrollToSection} />
       <Hero />
       <Sobre />
@@ -22,6 +22,6 @@ export default function Portfolio() {
       <Projetos />
       <Contato />
       <Footer />
-    </div>
+    </>
   )
 }
