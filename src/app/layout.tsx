@@ -19,10 +19,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
-        <Suspense fallback={null}>{children}</Suspense>
-        <Analytics />
-      </body>
-    </html>
+      <body
+  className={`${GeistSans.variable} ${GeistMono.variable} font-sans
+              min-h-screen flex flex-col bg-slate-900 text-slate-100 antialiased`}
+  >
+  <Suspense fallback={null}>
+    <main id="topo" className="flex-1">{children}</main>
+  </Suspense>
+  <Analytics />
+</body>
+</html>
   )
 }
