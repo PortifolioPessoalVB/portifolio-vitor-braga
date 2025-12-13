@@ -8,7 +8,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Vítor Braga - Desenvolvedor Web Júnior",
-  description: "...",
+  description: "HomePage de Vítor Braga, Desenvolvedor Web Júnior.",
   generator: "v0.app",
   icons: {
     icon: "/favicon.ico",
