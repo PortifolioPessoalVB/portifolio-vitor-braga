@@ -8,8 +8,12 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Vítor Braga - Desenvolvedor Web Júnior",
-  description: "Portfólio de Vítor Braga, Desenvolvedor Web Júnior especializado em React, Next.js e TypeScript",
+  description: "...",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
@@ -19,15 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body
-  className={`${GeistSans.variable} ${GeistMono.variable} font-sans
-              min-h-screen flex flex-col bg-slate-900 text-slate-100 antialiased`}
-  >
-  <Suspense fallback={null}>
-    <main id="topo" className="flex-1">{children}</main>
-  </Suspense>
-  <Analytics />
-</body>
-</html>
+      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+        <Suspense fallback={null}>{children}</Suspense>
+        <Analytics />
+      </body>
+    </html>
   )
 }
