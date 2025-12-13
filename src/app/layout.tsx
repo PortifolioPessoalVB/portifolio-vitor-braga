@@ -8,8 +8,12 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Vítor Braga - Desenvolvedor Web Júnior",
-  description: "Portfólio de Vítor Braga, Desenvolvedor Web Júnior especializado em React, Next.js e TypeScript",
+  description: "...",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
