@@ -14,7 +14,7 @@ const projects = [
     description: "Interface para download de processos judiciais.",
     stack: ["Next.js", "TypeScript", "ShadCN UI"],
     github: "https://github.com/BragaVitorJ/baixarProcesso-frontend",
-    live: "https://baixar-processo-frontend.vercel.app/",
+    live: "https://www.baixarprocesso.com/",
   },
   {
     title: "Biblioteca de Filmes (Estudo)",
